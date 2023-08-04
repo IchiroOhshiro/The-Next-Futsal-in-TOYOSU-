@@ -8,6 +8,31 @@ h1, h2, h3 {
   margin:0 16px 0 16px;
 }
 
+@media (min-width:375px) {
+  h1 {
+    font-size:10px;
+  }
+}
+
+@media (min-width: 375px) {
+  h2 {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 375px) {
+  h3 {
+    font-size: 6px;
+  }
+}
+
+@media (min-width: 375px) {
+  p , main {
+    font-size: 4px;
+  }
+}
+
+
 header {
   /* background:#53ef0b; */
   border: 1px solid white;
@@ -26,10 +51,17 @@ p , main {
   border-radius: 8px;
 }
 
+@media (min-width: 375px) {
+  .picture {
+  width: 280px;
+  height: 160px;
+  }
+}
+
 .hilight, .party {
   font-size: 4px;
   /* margin:16px; */
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 8px;
 }
 
@@ -41,6 +73,11 @@ p , main {
   background-image:url(green.gif);
 }
 
+@media (min-width: 375px) {
+  .container, .container2, .container3 {
+    width: 360px;
+  }
+}
 .container2 {
   display:flex;
   flex-wrap: wrap;
@@ -75,6 +112,7 @@ p , main {
   background-image:url(green.gif);
   margin:0;
   text-align: center;
+  /* background:yellow; */
 }
 
 .previous-party {
@@ -83,11 +121,24 @@ p , main {
   text-align: center;
 }
 
+
+@media (min-width: 375px) {
+  .previous-futsal, .previous-party {
+    width: 360px;
+  }
+}
+
 footer {
-  font-weight:bold;
+  /* font-weight:bold; */
   text-align: center;
   margin-top: 16px;
   /* background: lightgrey; */
   /* background: #c5f0fe; */
   margin:0;
+}
+
+@media (min-width: 375px) {
+  footer {
+    font-size: 4px;
+  }
 }
