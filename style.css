@@ -1,0 +1,93 @@
+@charcet "utf-8";
+
+body {
+  margin:0;
+}
+
+h1, h2, h3 {
+  margin:0 16px 0 16px;
+}
+
+header {
+  /* background:#53ef0b; */
+  border: 1px solid white;
+}
+
+p , main {
+  font-weight: bold;
+  margin: 8px 16px 0 16px;
+}
+
+
+.picture {
+  width:400px;
+  height:200px;
+  margin:8px 16px 0 16px;
+  border-radius: 8px;
+}
+
+.hilight, .party {
+  font-size: 4px;
+  /* margin:16px; */
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.container {
+  /* background: lightblue; */
+  /* border:8px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  background-image:url(green.gif);
+}
+
+.container2 {
+  display:flex;
+  flex-wrap: wrap;
+  background-image:url(sky.jpg);
+}
+
+.party {  
+  font-size:4px;
+}
+
+.container3 {
+  display: flex;
+  background-image:url(sky.jpg);
+}
+
+.all {
+  width:200px;
+  height:450px;
+  margin:16px 64px 0 64px;
+  border-radius: 8px;
+}
+
+.message {
+  margin-top: 16px;
+  /* background:#c5f0fe; */
+  margin:0;
+  padding-left: 8px;;
+
+}
+
+.previous-futsal {
+  background-image:url(green.gif);
+  margin:0;
+  text-align: center;
+}
+
+.previous-party {
+  background-image:url(sky.jpg);
+  margin:0;
+  text-align: center;
+}
+
+footer {
+  font-weight:bold;
+  text-align: center;
+  margin-top: 16px;
+  /* background: lightgrey; */
+  /* background: #c5f0fe; */
+  margin:0;
+}
