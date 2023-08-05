@@ -59,7 +59,7 @@ p , main {
   }
 }
 
-.hilight, .party {
+.hilight, .party, .all {
   font-size: 8px;
   /* margin:16px; */
   /* text-align: center; */
@@ -88,10 +88,6 @@ p , main {
   display:flex;
   flex-wrap: wrap;
   background-image:url(sky.jpg);
-}
-
-.party {  
-  font-size:4px;
 }
 
 .container3 {
