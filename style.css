@@ -67,10 +67,17 @@ p , main {
 }
 
 @media (max-width: 375px) {
-  .hilight, .party {
+  .hilight {
     font-size: 8px;
   }
 }
+
+@media (max-width: 375px) {
+  .party {
+    font-size: 8px;
+  }
+}
+
 .container {
   /* background: lightblue; */
   /* border:8px solid black; */
@@ -84,6 +91,7 @@ p , main {
     width: 360px;
   }
 }
+
 .container2 {
   display:flex;
   flex-wrap: wrap;
